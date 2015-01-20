@@ -14,6 +14,8 @@
 		F91D5C3F1A6DE448000CE1CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91D5C3E1A6DE448000CE1CD /* Images.xcassets */; };
 		F91D5C421A6DE448000CE1CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91D5C401A6DE448000CE1CD /* LaunchScreen.xib */; };
 		F91D5C4E1A6DE448000CE1CD /* MeetMeUp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C4D1A6DE448000CE1CD /* MeetMeUp1Tests.m */; };
+		F91D5C591A6DE48C000CE1CD /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C581A6DE48C000CE1CD /* EventViewController.m */; };
+		F91D5C5C1A6DE4A7000CE1CD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F91D5C471A6DE448000CE1CD /* MeetMeUp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91D5C4C1A6DE448000CE1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91D5C4D1A6DE448000CE1CD /* MeetMeUp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUp1Tests.m; sourceTree = "<group>"; };
+		F91D5C571A6DE48C000CE1CD /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		F91D5C581A6DE48C000CE1CD /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		F91D5C5A1A6DE4A7000CE1CD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				F91D5C361A6DE448000CE1CD /* AppDelegate.m */,
 				F91D5C381A6DE448000CE1CD /* ViewController.h */,
 				F91D5C391A6DE448000CE1CD /* ViewController.m */,
+				F91D5C5A1A6DE4A7000CE1CD /* WebViewController.h */,
+				F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */,
+				F91D5C571A6DE48C000CE1CD /* EventViewController.h */,
+				F91D5C581A6DE48C000CE1CD /* EventViewController.m */,
 				F91D5C3B1A6DE448000CE1CD /* Main.storyboard */,
 				F91D5C3E1A6DE448000CE1CD /* Images.xcassets */,
 				F91D5C401A6DE448000CE1CD /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91D5C3A1A6DE448000CE1CD /* ViewController.m in Sources */,
+				F91D5C5C1A6DE4A7000CE1CD /* WebViewController.m in Sources */,
+				F91D5C591A6DE48C000CE1CD /* EventViewController.m in Sources */,
 				F91D5C371A6DE448000CE1CD /* AppDelegate.m in Sources */,
 				F91D5C341A6DE448000CE1CD /* main.m in Sources */,
 			);
