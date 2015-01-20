@@ -16,6 +16,8 @@
 		F91D5C4E1A6DE448000CE1CD /* MeetMeUp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C4D1A6DE448000CE1CD /* MeetMeUp1Tests.m */; };
 		F91D5C591A6DE48C000CE1CD /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C581A6DE48C000CE1CD /* EventViewController.m */; };
 		F91D5C5C1A6DE4A7000CE1CD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */; };
+		F91D5C5F1A6E9366000CE1CD /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C5E1A6E9366000CE1CD /* CommentsViewController.m */; };
+		F91D5C621A6E9577000CE1CD /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5C611A6E9577000CE1CD /* CommentTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		F91D5C581A6DE48C000CE1CD /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		F91D5C5A1A6DE4A7000CE1CD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F91D5C5D1A6E9366000CE1CD /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		F91D5C5E1A6E9366000CE1CD /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		F91D5C601A6E9577000CE1CD /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		F91D5C611A6E9577000CE1CD /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +93,10 @@
 		F91D5C301A6DE448000CE1CD /* MeetMeUp1 */ = {
 			isa = PBXGroup;
 			children = (
-				F91D5C351A6DE448000CE1CD /* AppDelegate.h */,
-				F91D5C361A6DE448000CE1CD /* AppDelegate.m */,
-				F91D5C381A6DE448000CE1CD /* ViewController.h */,
-				F91D5C391A6DE448000CE1CD /* ViewController.m */,
-				F91D5C5A1A6DE4A7000CE1CD /* WebViewController.h */,
-				F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */,
-				F91D5C571A6DE48C000CE1CD /* EventViewController.h */,
-				F91D5C581A6DE48C000CE1CD /* EventViewController.m */,
+				F91D5C651A6E9E27000CE1CD /* View Controllers */,
 				F91D5C3B1A6DE448000CE1CD /* Main.storyboard */,
-				F91D5C3E1A6DE448000CE1CD /* Images.xcassets */,
-				F91D5C401A6DE448000CE1CD /* LaunchScreen.xib */,
+				F91D5C641A6E9DEA000CE1CD /* Comment Cell & Controller */,
+				F91D5C631A6E9DC4000CE1CD /* Defaults */,
 				F91D5C311A6DE448000CE1CD /* Supporting Files */,
 			);
 			path = MeetMeUp1;
@@ -127,6 +126,41 @@
 				F91D5C4C1A6DE448000CE1CD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F91D5C631A6E9DC4000CE1CD /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				F91D5C3E1A6DE448000CE1CD /* Images.xcassets */,
+				F91D5C401A6DE448000CE1CD /* LaunchScreen.xib */,
+				F91D5C351A6DE448000CE1CD /* AppDelegate.h */,
+				F91D5C361A6DE448000CE1CD /* AppDelegate.m */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		F91D5C641A6E9DEA000CE1CD /* Comment Cell & Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F91D5C601A6E9577000CE1CD /* CommentTableViewCell.h */,
+				F91D5C611A6E9577000CE1CD /* CommentTableViewCell.m */,
+			);
+			name = "Comment Cell & Controller";
+			sourceTree = "<group>";
+		};
+		F91D5C651A6E9E27000CE1CD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F91D5C381A6DE448000CE1CD /* ViewController.h */,
+				F91D5C391A6DE448000CE1CD /* ViewController.m */,
+				F91D5C571A6DE48C000CE1CD /* EventViewController.h */,
+				F91D5C581A6DE48C000CE1CD /* EventViewController.m */,
+				F91D5C5D1A6E9366000CE1CD /* CommentsViewController.h */,
+				F91D5C5E1A6E9366000CE1CD /* CommentsViewController.m */,
+				F91D5C5A1A6DE4A7000CE1CD /* WebViewController.h */,
+				F91D5C5B1A6DE4A7000CE1CD /* WebViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +265,8 @@
 			files = (
 				F91D5C3A1A6DE448000CE1CD /* ViewController.m in Sources */,
 				F91D5C5C1A6DE4A7000CE1CD /* WebViewController.m in Sources */,
+				F91D5C5F1A6E9366000CE1CD /* CommentsViewController.m in Sources */,
+				F91D5C621A6E9577000CE1CD /* CommentTableViewCell.m in Sources */,
 				F91D5C591A6DE48C000CE1CD /* EventViewController.m in Sources */,
 				F91D5C371A6DE448000CE1CD /* AppDelegate.m in Sources */,
 				F91D5C341A6DE448000CE1CD /* main.m in Sources */,

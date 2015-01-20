@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 
+
 @end
 
 @implementation ViewController
@@ -63,7 +64,7 @@
 
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.events count];
+    return self.events.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -75,6 +76,7 @@
     // get address
     NSString *address = [[eventsDict objectForKey:@"venue"] objectForKey:@"address_1"];
     cell.detailTextLabel.text = address;
+    
     return cell;
 }
 
